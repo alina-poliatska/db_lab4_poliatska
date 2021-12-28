@@ -1,3 +1,4 @@
+-- Повертає кількість манг, рейтинг котрих вищий за заданий
 CREATE OR REPLACE FUNCTION get_manga_number(rating_ DECIMAL)
 RETURNS INT
 LANGUAGE 'plpgsql'
