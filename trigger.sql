@@ -1,3 +1,4 @@
+-- Дописує "Mr." після додавання нового рядка в таблицю author
 CREATE TRIGGER author_name_insert 
 AFTER INSERT ON author
 FOR EACH ROW EXECUTE FUNCTION author_name()
