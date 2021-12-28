@@ -1,3 +1,4 @@
+-- Додає нового автора
 CREATE OR REPLACE PROCEDURE add_new_author(
 	author_id_ INT,
 	name_ VARCHAR
